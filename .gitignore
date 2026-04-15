@@ -7,3 +7,7 @@ __pycache__/
 venv/
 .env
 *.log
+data/*
+!data/kaggle_prompt_injection/
+!data/kaggle_prompt_injection/*.csv
+data/kaggle_prompt_injection/.complete/
